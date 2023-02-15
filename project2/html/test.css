@@ -1,0 +1,84 @@
+*html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+header.name {
+    width: 65%;
+}
+header.image {
+    width: 35%;
+}
+.container{
+    max-width: 500px;
+    margin: 40px auto 0;
+}
+header .image img {
+    max-width: 165px;
+   
+}
+section{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+section article{
+    border-right:1px solid black ;
+    padding-right: 15px;
+    width: 70%;
+}
+section aside{
+    width: 35%;
+    padding-left: 15px;
+}
+header h1 {
+    font-size: 30px;
+    letter-spacing: -1px;
+}
+section h3{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+section aside h3{
+    font-size: 19px;
+    margin-top: 20px;
+    margin-bottom: 18px;
+}
+p{
+   
+    font-size: 16px;
+}
+.baba{
+    line-height: 1.5;
+    margin-bottom: 10px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.name h2{
+    bottom: 100px;
+}
+header div h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    margin-bottom: 100px;
+}
+article h3{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.rect{
+    border: 10px solid ;
+    width: 550px;
+    height: 660px;
+    position: absolute;
+    z-index: -2;
+    margin-left: -41px;
+    top: 20px;
+    
+    
+    
+}
